@@ -12,7 +12,7 @@ gifsicle --colors 256 -d 100 *.gif > all.gif
 ```
 
 ### Using `convert`
-From [ImageMagick](https://www.imagemagick.org/Usage/anim_basics/): 
+ From [ImageMagick](https://www.imagemagick.org/Usage/anim_basics/): 
 
 - put all the PNG (or GIF) images, appropriately named so that they fall in the correct order of appearance when listed/sorted alphabetically (sometimes tricky), in one folder/directory
 - `cd` (change into) the directory containing the PNG (or GIF) images then issue the following command (for PNGs) to create the animated GIF `all.gif`:
@@ -22,11 +22,11 @@ convert -d 100 *.png all.gif
 
 ### Notes
 - For `gifsicle` (am not sure if also true for `convert`), the `-d 100` option causes a delay of 1 second (=100 \* 1/100th of a second) between frames, i.e., `d -250` causes a 2 1/2 s delay, `-d 325` causes a 3 1/4 s delay.
-- `mogrify` - from ImageMagick can be used to convert PNGs to GIFs (and vice-versa):
+- `mogrify` - from ImageMagick, can be used to convert PNGs to GIFs (and vice-versa):
 ```bash
 mogrify -format gif *.png
 ```
-- `display` - from ImageMagick gives a GUI that allows one to examine, study, edit, save changes made to an existing image, e.g., change the speed of animated GIFs.
+- `display` - from ImageMagick, gives a GUI that allows one to examine, study, edit, save changes made to an existing image, e.g., change the speed of animated GIFs.
 
 ## Example
 The screenshot (partly edited) of a [`t3C` tic-tac-toe game](https://github.com/justineuro/tic-tac-toe) session given below was created using `gifsicle` and the images in the [images-gif](./images-gif) folder, i.e., issue the command `gifsicle --colors 256 -d 300 *.gif > t3C-all.gif` under the `images-gif` subdirectory above.      
