@@ -27,6 +27,11 @@ convert -d 100 *.png all.gif
 mogrify -format gif *.png
 ```
 - `display` - from ImageMagick, gives a GUI that allows one to examine, study, edit, save changes made to an existing image, e.g., change the speed of animated GIFs.
+- [Animator for Android](https://play.google.com/store/apps/details?id=com.mobilelabs.animator&hl=en) - an example of an Android app that creates animated GIFs.  An excerpt from the app's "READ MORE" page:  
+> Animator is a tool for making animated cartoon videos and exporting them to Gif or Video formats. 
+> Make funny videos - no advanced drawing skills required! Just doodle, have fun and amaze your friends. 
+> You can create amazing animations without any expertise! Animation is made easy, better than any 
+> other animation software. 
 
 ## Example
 The screenshot (partly edited) of a [`t3C` tic-tac-toe game](https://github.com/justineuro/tic-tac-toe) session given below was created using `gifsicle` and the images in the [images-gif](./images-gif) folder, i.e., issue the command `gifsicle --colors 256 -d 300 *.gif > t3C-all.gif` under the `images-gif` subdirectory above.      
