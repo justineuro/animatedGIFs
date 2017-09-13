@@ -29,7 +29,7 @@ mogrify -format gif *.png
 - `display` - from ImageMagick gives a GUI that allows one to examine, study, edit, save changes made to an existing image, e.g., change the speed of animated GIFs.
 
 ## Example
-The screenshot (partly edited) of a [`t3C` tic-tac-toe game](https://github.com/justineuro/tic-tac-toe) session given below was created using `gifsicle` and the images in the [images-gif](./images-gif) folder, i.e., issue the command `gifsicle --colors 256 -d 100 *.gif > t3C-all.gif` under the `images-gif` subdirectory above.      
+The screenshot (partly edited) of a [`t3C` tic-tac-toe game](https://github.com/justineuro/tic-tac-toe) session given below was created using `gifsicle` and the images in the [images-gif](./images-gif) folder, i.e., issue the command `gifsicle --colors 256 -d 300 *.gif > t3C-all.gif` under the `images-gif` subdirectory above.      
 ![tic-tac-toe: The Game!](./t3C-all.gif)
 
 ## License
