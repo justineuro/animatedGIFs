@@ -42,6 +42,7 @@ mogrify -format gif *.png
 > Make funny videos - no advanced drawing skills required! Just doodle, have fun and amaze your friends. 
 > You can create amazing animations without any expertise! Animation is made easy, better than any 
 > other animation software. 
+
 There are a  number of other alternative Android apps from the Google Play Store (search under <tt>animator</tt>).
 
 ## Example
