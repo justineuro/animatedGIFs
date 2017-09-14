@@ -36,6 +36,11 @@ and editing this list so that the images are listed in the order of appearance i
 ```bash
 mogrify -format gif *.png
 ```
+- `animate` - from ImageMagick, allows a preview of the to-be-created animated GIF from the PNG images in a directory:
+```bash
+animate -loop 0 -delay 100 *.png
+```  
+(the `-loop 0` option means an infinite loop; use `Ctrl-C` or the x-button to exit from the preview GUI).
 - `display` - from ImageMagick, gives a GUI that allows one to examine, study, edit, save changes made to an existing image, e.g., change the speed of animated GIFs.
 - [Animator for Android](https://play.google.com/store/apps/details?id=com.mobilelabs.animator&hl=en) - an example of an Android app (availabe from Google Play Store) that creates animated GIFs.  An excerpt from the app's "READ MORE" page:  
 > Animator is a tool for making animated cartoon videos and exporting them to Gif or Video formats. 
