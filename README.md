@@ -50,7 +50,7 @@ The screenshot (partly edited) of a [`t3C` tic-tac-toe game](https://github.com/
 ```bash
 gifsicle --colors 256 -d 300 *.gif > t3C-all.gif
 ```
-under the `images-gif` subdirectory above.      
+under (the copy in your computer) of the `images-gif` subdirectory given above.      
 ![tic-tac-toe: The Game!](./t3C-all.gif)
 
 ## License
