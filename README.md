@@ -46,7 +46,11 @@ mogrify -format gif *.png
 There are a  number of other alternative Android apps from the Google Play Store (search under <tt>animator</tt>).
 
 ## Example
-The screenshot (partly edited) of a [`t3C` tic-tac-toe game](https://github.com/justineuro/tic-tac-toe) session given below was created using `gifsicle` and the images in the [images-gif](./images-gif) folder, i.e., issue the command `gifsicle --colors 256 -d 300 *.gif > t3C-all.gif` under the `images-gif` subdirectory above.      
+The screenshot (partly edited) of a [`t3C` tic-tac-toe game](https://github.com/justineuro/tic-tac-toe) session given below was created using `gifsicle` and the images in the [images-gif](./images-gif) folder, i.e., issue the command
+```bash
+gifsicle --colors 256 -d 300 *.gif > t3C-all.gif
+```
+under the `images-gif` subdirectory above.      
 ![tic-tac-toe: The Game!](./t3C-all.gif)
 
 ## License
