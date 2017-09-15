@@ -1,6 +1,6 @@
 ## Creating Animated GIFs
 
-Animated GIFs, such as the one given below are easy to create.  Among the possibilities are using `gifsicle` from [Gifsicle](https://www.lcdf.org/gifsicle/) and `convert` from [ImageMagick](https://www.imagemagick.org/)
+Animated GIFs, such as the one given below are easy to create.  Among the possibilities are using `gifsicle` from [Gifsicle](https://www.lcdf.org/gifsicle/) and `convert` from [ImageMagick](https://www.imagemagick.org/).
 
 ### Using `gifsicle`
 From [Gifsicle](https://www.lcdf.org/gifsicle/man.html):
@@ -22,7 +22,7 @@ convert -delay 100 *.png all.gif
 
 Instead of using a wildcard (*.png) on the command-line, one may also use a list (a text file, e.g., listOfImages.txt) of images in which the filenames of the images to be combined are listed (in one column, one filename per row) in the proper order of appearance.  This is specially useful when it is not easy to syncronize the names of the files with the order of appearance:
 ```bash
-convert @listOfImages.txt all.gif
+convert -delay 100 @listOfImages.txt all.gif
 ```
 One can get a list of images in a directory by using (at the command-line within the directory):
 ```bash
